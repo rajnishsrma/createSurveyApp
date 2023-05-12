@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar-container{
+    width: 18%;
+    height: 100vh;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.survey-head{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.middle{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opt1{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.opt1 img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.opt2{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.opt2 img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.quote{
+    text-align: start;
+    margin-left: 20px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

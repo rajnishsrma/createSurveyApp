@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-mysurvey{
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 20px grey;
+}
+
+.container-mysurvey .mysurvey-img{
+    background-color: rgba(32, 32, 230, 0.1);
+    padding: 20px;
+}
+.container-mysurvey .mysurvey-img img{
+    width: 200px;
+    
+}
+.container-mysurvey .title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+}
+.container-mysurvey .date-icon{
+    display: flex;
+
+}
+.container-mysurvey .date-icon .dicon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.container-mysurvey .date-icon .option-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+}
+.container-mysurvey .date-icon h3{
+    font-size: 0.9rem;
+    color: grey;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.container-mysurvey .mysurvey-btn button{
+    width: 100%;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}

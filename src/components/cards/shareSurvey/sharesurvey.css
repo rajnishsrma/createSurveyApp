@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-wrapper{
+    /* opacity: 0.5;
+    z-index: -10; */
+    /* position: relative; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url("../../../../public/logo192.png");
+}
+
+.card2{
+    width: 400px;
+    height: 250px;
+    background: white;
+    position: relative;
+    z-index: 10;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.card-txt{
+    /* padding: 20px; */
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   margin-top: 0px;
+   margin-bottom: 20px;
+}
+
+.card-txt .heading{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.input-item{
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+.input-item label{
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 100%;
+    padding-bottom: 10px;
+}
+
+.input-item .people-text{
+    width: 100%;
+    border: 1px solid yellow;
+    padding: 10px;
+    background-color: rgba(243, 219, 39, 0.1); 
+    color: black;
+    font-size: 0.8rem;
+    position: relative;
+}
+
+.input-item a{
+    position: absolute;
+    right: 20%;
+    top: 43%;
+    text-decoration: none;
+}
+
+hr{
+    opacity: 0.5;
+}
+
+.btns{
+    float: right;
+    
+}
+
+.btns .share-btn{
+    width: 70px;
+    background-color: blue;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.btns .cancel-btn{
+    width: 70px;
+    background-color: white;
+    color: blue;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 8px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+/* .input-item .people-text::after{
+    content: "";
+    background-color: yellow;
+    
+} */

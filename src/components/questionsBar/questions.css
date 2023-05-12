@@ -1,0 +1,27 @@
+.ques-container{
+    width: 20%;
+    height: 70vh;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.ques-container hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.que{
+    padding: 10px;
+    border: 2px solid yellowgreen;
+    border-radius: 50px;
+}
+
+.que p{
+    background-color: rgba(241, 251, 60, 0.3);
+    border-radius: 20px;
+}
+.que img{
+    width: 15px;
+    /* margin-top: 10px; */
+    margin-right: 10px;
+}
